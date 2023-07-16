@@ -20,7 +20,7 @@ def open_new_page():
     new_window.geometry(f"{screen_width}x{screen_height}")
 
     # Load the background image
-    background_image = tk.PhotoImage(file="C:/Users/uic18/Downloads/ddp.png")
+    background_image = tk.PhotoImage(file="ddp.png")
 
     # Create a label widget to hold the background image
     background_label = tk.Label(new_window, image=background_image)
@@ -43,7 +43,7 @@ def open_new_page():
 window = tk.Tk()
 
 # Load the background image
-background_image = tk.PhotoImage(file="C:/Users/uic18/Downloads/ddp.png")
+background_image = tk.PhotoImage(file="ddp.png")
 
 # Get the screen width and height
 screen_width = window.winfo_screenwidth()
